@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_top5_mascotas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maccesarr.proyectomascotas.Top5Mascotas">
+
+    <include android:id="@+id/miActionBar2"
+        layout="@layout/action_bar_detalle">
+
+    </include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMascotasFavoritas"
+        android:layout_below="@+id/miActionBar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
